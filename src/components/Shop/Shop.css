@@ -1,0 +1,44 @@
+.search-container {
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    line-height: 40px;
+}
+
+.search-container input {
+    width: 75%;
+}
+
+.shop-container {
+    
+    display: grid;
+    grid-template-columns : 3fr 1fr;
+    background-color: lightgray;
+}
+
+.product-container {
+    border-right: 1px solid gray;
+    margin-right: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+.cart-container {
+    background-color: lightgray;
+    margin-top: 10px;
+    
+}
+
+.cart-element {
+    margin-left: 5px;
+    background-color: #FFC300;
+    padding: 10px;
+    height: 100vh;
+    border-radius: 10px;
+}   
+
+.cart-element:hover {
+    background-color:#E133FF;
+    color: white;
+}
